@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Contact Details</title>
+</head>
+<body>
+    <h1>My Contact Details</h1>
+    <p>My Address</p>
+    <p>08027883388</p>
+    <p>saheedegunsola@gmail.com</p>
+    <hr/>
+    
+        <form action="mailto: saheedegunsola@gmail.com" method="POST" ectype="multipart/form-data">
+          <label for="firstname">First Name:</label> 
+          <input type="text" id="firstname" name="firstname" placeholder="please input your firstname" minlength="5" maxlength="10">
+           <br>
+           <label for="lastname">Last Name:</label>
+           <input type="text" id="lastname" name="lastname" placeholder="pls input your last name" minlength="5" maxlength="10">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email"id="email" name="email"> <br>
+            <label for="phone number">Phone Number:</label>
+            <input type="tel" id="phonenumber" name="phonenumber">
+            <br>
+            <label for="gender">Gender:</label><br>
+            <input type="radio" id="" name="gender" value="male">
+            <label for="male">Male</label>     <br> 
+            <input type="radio" id=""  name="gender" value="female">
+            <label for="male">Female</label> <br>
+            <input type="radio" id="" name="gender" value="prefer not to say">
+            <label for="prefer not to say">Prefer not to say</label>   
+             <br>
+                  
+        </form>
+</body>
+</html>
